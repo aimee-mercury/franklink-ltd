@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { FiMail, FiLock } from "react-icons/fi";
 import Link from "next/link";
-import Image from "next/image"; 
+import Image from "next/image";
 
 export default function LoginForm() {
   const [email, setEmail] = useState("");
@@ -34,23 +34,23 @@ export default function LoginForm() {
     setErrors(newErrors);
 
     if (valid) {
-      // Simulate 5-second loading process
       setTimeout(() => {
-        // Retrieve the saved credentials from localStorage
-        const storedEmail = localStorage.getItem("userEmail");
-        const storedPassword = localStorage.getItem("userPassword");
+        // Retrieve the stored users from localStorage
+        const storedUsers = JSON.parse(localStorage.getItem("users") || "[]");
 
-        // Check if the entered credentials match the stored ones
-        if (email === storedEmail && password === storedPassword) {
-          // Navigate to home page directly upon successful login
-          alert("Login successful! Redirecting to home...");
-          window.location.href = "/home"; // Redirect to the home page
-        } else {
-          setErrors({ email: "Invalid email or password", password: "" });
-          // Check if the email is found
-          if (!storedEmail || email !== storedEmail) {
-            setAccountMessage("Create an account, you don't have one.");
+        // Find the user with the matching email
+        const user = storedUsers.find((user: { email: string; password: string }) => user.email === email);
+
+        if (user) {
+          // Check if the password matches
+          if (user.password === password) {
+            alert("Login successful! Redirecting to home...");
+            window.location.href = "/home"; // Redirect to the home page
+          } else {
+            setErrors({ email: "", password: "Invalid password" });
           }
+        } else {
+          setAccountMessage("Create an account, you don't have one.");
         }
 
         setLoading(false); // Reset loading state after processing
