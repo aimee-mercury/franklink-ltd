@@ -139,7 +139,7 @@ export default function HomePage() {
             <p className="text-lg font-medium mb-4 ">Get in touch with us for more information!</p>
             <div className="flex justify-center gap-10">
               <div className="text-md">
-                <p className="text-white">+250 791 963 799</p>
+                <p className="text-white">+250 798 977 017</p>
                 <p className="text-white">franklink2026@gmail.com</p>
                 <p className="text-white">+250 783 490 189</p>
               </div>
