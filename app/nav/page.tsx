@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="flex justify-between md:px-16 md:py-[18px] py-6 items-center px-8">
           <div className="flex items-center">
             <Image
-              src="/blu.png"
+              src="/blue.png"
               alt="Logo"
              height={60}
              width={60}

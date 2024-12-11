@@ -36,7 +36,7 @@ export default function HomePage() {
         <div className="mt-6 space-x-4">
           <Link href="#Services">
             <button className="bg-blue-500 px-6 py-3 rounded-full text-white font-semibold hover:scale-105 transition-transform">
-              Explore Services
+              Explore our Services
             </button>
           </Link>
         
@@ -127,7 +127,7 @@ export default function HomePage() {
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-10 md:gap-20 px-6">
           {/* About */}
           <div className="w-full md:w-1/4 flex flex-col items-center">
-            <Image src="/blu.png" alt="Logo" width={80} height={80} />
+            <Image src="/blue.png" alt="Logo" width={80} height={80} />
             <h2 className="text-2xl font-bold mt-4">Franklink Limited</h2>
             <p className="text-sm leading-relaxed text-center mt-2">
               Your trusted partner for simplified living.
