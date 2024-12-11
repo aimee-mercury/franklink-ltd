@@ -39,9 +39,7 @@ export default function HomePage() {
               Explore Services
             </button>
           </Link>
-          <button className="border border-white px-6 py-3 rounded-full text-white font-semibold hover:scale-105 transition-transform">
-            Learn More
-          </button>
+        
         </div>
       </main>
 
