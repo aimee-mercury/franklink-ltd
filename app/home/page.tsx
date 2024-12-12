@@ -12,15 +12,15 @@ export default function HomePage() {
     "/hrent.jpeg",
     "/chouffer.jpeg",
     "/rel.jpeg",
-  ]; 
+  ];
 
   // Auto-slide functionality
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); 
+    }, 5000);
 
-    return () => clearInterval(interval); 
+    return () => clearInterval(interval);
   }, [images.length]);
 
   return (
@@ -30,8 +30,11 @@ export default function HomePage() {
       <main className="flex flex-col items-center justify-center text-center mt-12 lg:mt-24 px-8 animate-bounce-in mt-20">
         <h1 className="text-5xl font-extrabold mt-8">Welcome to Franklink</h1>
         <p className="mt-4 text-lg max-w-xl">
-          Experience luxury, reliability, and professionalism. Our services
-          ensure you arrive stress-free and in style.
+          We are here to offer top-notch services that meet your needs. Whether you're seeking
+          professional chauffeur services, seamless relocation assistance, or accommodation and
+          vehicles for rent, we are committed to delivering reliability, comfort, and unmatched
+          professionalism. Trust us to make your experience smooth, stress-free, and exceptional
+          in every way.
         </p>
         <div className="mt-6 space-x-4">
           <Link href="#Services">
@@ -39,7 +42,7 @@ export default function HomePage() {
               Explore our Services
             </button>
           </Link>
-        
+
         </div>
       </main>
 
@@ -55,7 +58,7 @@ export default function HomePage() {
               src={images[currentIndex]}
               alt={`Slide ${currentIndex + 1}`}
               width={400}
-              height={200} 
+              height={200}
               className="mx-auto rounded-lg"
             />
           </div>
@@ -75,10 +78,10 @@ export default function HomePage() {
 
         {/* About Us Text */}
         <h2 className="text-4xl font-bold mt-6">About Us</h2>
-        <p className="mt-4 text-lg max-w-xl">
-        we are here to offer top-notch services that meet your needs. Whether you're seeking professional 
-        chauffeur services, seamless relocation assistance, or accomodation and vehicles  for rent , we are committed to delivering reliability, comfort,
-        and unmatched professionalism. Trust us to make your experience smooth, stress-free, and exceptional in every way.
+        <p className="text-lg max-w-4xl mx-auto mt-4">
+          Franklink Limited is dedicated to simplifying your life. Whether you
+          need a chauffeur, relocation assistance, or rental services, we provide
+          exceptional quality tailored to your needs.
         </p>
       </section>
 
@@ -141,11 +144,11 @@ export default function HomePage() {
               <div className="text-md">
                 <p className="text-white">+250 798 977 017</p>
                 <p className="text-white">+250 783 490 189</p>
-                <p className="text-white">franklink2026@gmail.com</p>  
+                <p className="text-white">franklink2026@gmail.com</p>
               </div>
             </div>
           </div>
-    
+
           <div className="w-full md:w-1/5">
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
