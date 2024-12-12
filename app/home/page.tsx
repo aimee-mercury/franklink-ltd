@@ -30,8 +30,9 @@ export default function HomePage() {
       <main className="flex flex-col items-center justify-center text-center mt-12 lg:mt-24 px-8 animate-bounce-in mt-20">
         <h1 className="text-5xl font-extrabold mt-8">Welcome to Franklink</h1>
         <p className="mt-4 text-lg max-w-xl">
-          Experience luxury, reliability, and professionalism. Our services
-          ensure you arrive stress-free and in style.
+        we are here to offer top-notch services that meet your needs. Whether you're seeking professional 
+        chauffeur services, seamless relocation assistance, or accomodation and vehicles  for rent , we are committed to delivering reliability, comfort,
+        and unmatched professionalism. Trust us to make your experience smooth, stress-free, and exceptional in every way.
         </p>
         <div className="mt-6 space-x-4">
           <Link href="#Services">
@@ -140,8 +141,9 @@ export default function HomePage() {
             <div className="flex justify-center gap-10">
               <div className="text-md">
                 <p className="text-white">+250 798 977 017</p>
-                <p className="text-white">franklink2026@gmail.com</p>
                 <p className="text-white">+250 783 490 189</p>
+                <p className="text-white">franklink2026@gmail.com</p>
+               
               </div>
             </div>
           </div>
