@@ -144,7 +144,6 @@ export default function HomePage() {
             <div className="flex justify-center gap-10">
               <div className="text-md">
                 <p className="text-white">+250 798 977 017</p>
-                <p className="text-white">+250 783 490 189</p>
                 <p className="text-white">franklink2026@gmail.com</p>
               </div>
             </div>
