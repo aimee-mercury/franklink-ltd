@@ -104,7 +104,7 @@ export default function HomePage() {
 
           {/* Service 2 */}
           <div className="bg-purple-700/80 rounded-lg shadow-lg p-6 hover:scale-105 transition-transform">
-            <h3 className="font-semibold text-lg mt-4">Relocation Assistant</h3>
+            <h3 className="font-semibold text-lg mt-4">Relocation Integration Assistant</h3>
             <p className="mt-2">
               We assist in simplifying your relocation needs and preferences of
               essential services such as home-finding, transportation, household,
@@ -143,8 +143,8 @@ export default function HomePage() {
             <p className="text-lg font-medium mb-4 ">Get in touch with us for more information!</p>
             <div className="flex justify-center gap-10">
               <div className="text-md">
-                <p className="text-white">+250 798 977 017</p>
-                <p className="text-white">franklink2026@gmail.com</p>
+                <p className="text-white"> +250 798 977 017 </p>
+                <p className="text-white"> franklink2026@gmail.com </p>
               </div>
             </div>
           </div>
