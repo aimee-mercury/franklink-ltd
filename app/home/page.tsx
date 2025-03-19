@@ -35,9 +35,9 @@ export default function HomePage() {
       <main className="flex flex-col items-center justify-center text-center mt-12 lg:mt-24 px-8">
         <h1 className="text-5xl font-extrabold mt-8">Welcome to Franklink</h1>
         <p className="mt-4 text-lg max-w-xl">
-        Franklink Limited is dedicated to simplifying your life. Whether you
-          need a chauffeur, relocation assistance, or rental services, we provide
-          exceptional quality tailored to your needs.
+        We are here to offer top-notch services that meet your needs. Whether you&apos;re seeking professional 
+        chauffeur services, seamless relocation assistance, or accommodation and vehicles for rent, we are committed to delivering reliability, comfort, and unmatched professionalism.
+         Trust us to make your experience smooth, stress-free, and exceptional in every way.
         </p>
         <div className="mt-6 space-x-4">
           <Link href="#Services">
@@ -73,7 +73,8 @@ export default function HomePage() {
 
         <h2 className="text-4xl font-bold mt-6">About Us</h2>
         <p className="text-lg max-w-4xl mx-auto mt-4">
-          Franklink Limited simplifies your life with top services.
+        Franklink Limited is dedicated to simplifying your life. Whether you need a chauffeur, relocation assistance, 
+        or rental services, we provide exceptional quality tailored to your needs.
         </p>
       </section>
 
